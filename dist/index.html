@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Đorđe Nešković - Web Developer</title>
+</head>
+
+<body>
+
+    <!--Navigation-->
+
+    <nav id="navigation">
+        <div class="container">
+            <div class="navigation text-center py-1">
+
+                <div class="navigation-logo">
+                    <a href="#hero" class="navigation-btn">
+                        <p class="navigation-logo-text"></p>
+                    </a>
+                </div>
+
+                <div class="navigation-hamburger">
+                    <i class=" fas fa-solid fa-bars fa-2x hamburger"></i>
+                </div>
+
+                <div class="nav py-1">
+                    <ul class="navigation-list">
+                        <li class="px-1 navigation-list-li"><a href="#hero" class="navigation-list-text">Home</a></li>
+                        <li class="px-1 navigation-list-li"><a href="#about-me" class="navigation-list-text">About
+                                me</a></li>
+                        <li class="px-1 navigation-list-li"><a href="#projects"
+                                class="navigation-list-text">Projects</a></li>
+                        <li class="px-1 navigation-list-li"><a href="#video-projects" class="navigation-list-text">Video
+                                Projects</a>
+                        </li>
+                        <li class="px-1 navigation-list-li"><a href="#testimonials"
+                                class="navigation-list-text">Testimonial</a>
+                        </li>
+                        <li class="px-1 navigation-list-li"><a href="#contact" class="navigation-list-text">Contact
+                                me</a></li>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+
+    <section id="hero" class="background">
+        <div class="container">
+            <div class="hero">
+
+                <div class="hero-content">
+                    <p class="hero-text"></p>
+                    <h2 class="hero-title">hey there</h2>
+                    <p class="hero-message">My name is Đorđe N. and I <span class="txt-type" data-wait="3000"
+                            data-words='["am Front-End Developer", "do Video Editing"]'></span>. <br> Click hand to see
+                        my
+                        projects.
+                    </p>
+                    <a href="#projects" class="hero-pointer-link"><i
+                            class="fas fa-solid fa-hand-point-down hero-pointer fa-4x"></i></a>
+                    <p class="hero-text-bottom"></p>
+                </div>
+
+                <div class="hero-game">
+                    <p class="hero-game-question">Let's play a quick game?</p>
+                    <p class="hero-game-title">rock, paper, scissor</p>
+                    <div class="hero-game-content">
+                        <div class="hero-game-p1">
+                            <p class="hero-game-p1-title">YOU</p>
+                            <select id="hero-game-options">
+                                <option value="rock">Rock🤜🏻</option>
+                                <option value="paper">Paper🖐🏻</option>
+                                <option value="scissor">Scissors✌🏻</option>
+                            </select>
+                        </div>
+                        <p class="vs">VS</p>
+                        <div class="hero-game-p2">
+                            <p class="hero-game-p2-title">ME</p>
+                            <p class="hero-game-p2-inner"></p>
+                        </div>
+                    </div>
+                    <button class="btn btn-game">PLAY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--About Me-->
+
+    <section id="about-me" class="section section-hidden background">
+        <div class="container">
+            <div class="about-me">
+                <div class="about-me-img">
+                    <img src="./img/ja.jpg" alt="">
+                </div>
+                <div class="about-me-loader">
+                    <div class="loader"></div>
+                </div>
+
+                <div class="about-me-content">
+                    <p class="about-me-text"></p>
+                    <h2 class="about-me-title">Who am I</h2>
+                    <p class="about-me-message">Hello again, <br>
+                        My name is Đorđe and I'm Vue
+                        Developer. For now, <span class="change-color">I'm looking for a job</span> , so if you like my
+                        <a href="#projects" class="work-link">works</a>, you can <a href="#"
+                            class="contact-link">contact</a>
+                        me.
+                    </p>
+                    <p class="about-me-text-bottom"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+
+    <section id="projects" class="section section-hidden background">
+        <div class="container">
+            <div class="project-content my-4 text-center">
+                <p class="project-content-text"></p>
+                <h3 class="project-content-title">Latest projects</h3>
+                <p class="project-content-message">Here are some of my latest works I've been working on! Hope you like
+                    it!!!</p>
+            </div>
+
+            <div class="projects-works">
+                <div class="project">
+                    <div class="project-img project-1" data-tab="1">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-1 " data-tab="1">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project ">
+                    <div class="project-img project-2" data-tab="2">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-2" data-tab="2">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project ">
+                    <div class="project-img project-3" data-tab="3">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-3" data-tab="3">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img project-4" data-tab="4">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-4" data-tab="4">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project ">
+                    <div class="project-img project-5" data-tab="5">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-5" data-tab="5">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project ">
+                    <div class="project-img project-6" data-tab="6">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-6" data-tab="6">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img project-7" data-tab="7">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-7" data-tab="7">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To Website</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img  project-8" data-tab="8">
+                        <img src="./img/project-img.jpg" alt="" class="projectIMG projectIMG-8" data-tab="8">
+
+                        <div class="project-inner">
+                            <div class="project-inner-flex">
+                                <p class="project-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Incidunt,
+                                    ratione!</p>
+                                <a href="#" class="project-link"><button class="btn-view-project">Go To
+                                        Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="project-content-text-bottom text-center my-4"></p>
+        </div>
+    </section>
+
+    <!-- Video projects-->
+    <section id="video-projects" class="section section-hidden background">
+        <div class="container">
+            <div class="video-projects-content my-4 text-center">
+                <p class="video-projects-content-text"></p>
+                <h3 class="video-projects-content-title">Latest video projects</h3>
+                <p class="video-projects-content-message">I'm woking for YouTube chanel <a href="#" class="masha">Masha
+                        Scents</a> and this are my
+                    latest video projects I've done!!!</p>
+            </div>
+
+            <div class="slider">
+                <div class="slide slide-1">
+                    <iframe width="600" height="400" src="https://www.youtube.com/embed/hli0Mzs-8d0"
+                        title="KAKO MIRIŠE PARFEM SA KOKICAMA? 🤩 Idôle Nectar Lancôme" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="video"></iframe>
+                </div>
+                <button class="slider__btn slider__btn--left">&larr;</button>
+                <button class="slider__btn slider__btn--right">&rarr;</button>
+            </div>
+            <div>
+                <p class="video-projects-content-text-bottom my-4 text-center"></p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Testimonials-->
+
+    <section id="testimonials" class="section section-hidden background">
+        <div class="container">
+            <div class="testimonials-content text-center my-4">
+                <p class="testimonials-text"></p>
+                <h3 class="testimonials-content-title">What do people think about my work?</h3>
+                <p class="testimonials-content-message">Here are some reactions of satisfying clients 🤩</p>
+            </div>
+
+            <div class="testimonials">
+                <div class="testimonials-card testimonials-card-1">
+                    <div class="testimonials-card-img">
+                        <img src="./img/user-1.jpg" alt="">
+                    </div>
+                    <p class="testimonials-card-name my-1">Bobby Perry</p>
+                    <p class="testimonials-card-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                        impedit soluta, iure odit aspernatur obcaecati exercitationem perferendis amet placeat deserunt?
+                        Quasi eveniet iusto fugiat consequatur reprehenderit suscipit, inventore facilis, excepturi
+                        repudiandae, debitis at. Officiis amet aspernatur dolor reiciendis iusto placeat voluptas
+                        possimus! Excepturi laboriosam dicta architecto incidunt, doloribus in blanditiis.</p>
+                </div>
+
+                <div class="testimonials-card testimonials-card-2">
+                    <div class="testimonials-card-img">
+                        <img src="./img/user-2.jpg" alt="">
+                    </div>
+                    <p class="testimonials-card-name my-1">Lorraine Salt</p>
+                    <p class="testimonials-card-message">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Cupiditate excepturi voluptate adipisci quis nobis eligendi minus aliquid soluta quaerat.
+                        Repellendus nostrum molestiae ad vel officiis error obcaecati sint debitis recusandae.</p>
+                </div>
+                <div class="testimonials-card testimonials-card-3">
+                    <div class="testimonials-card-img">
+                        <img src="./img/user-3.jpg" alt="">
+                    </div>
+                    <p class="testimonials-card-name my-1">Aiysha O'Gallagher</p>
+                    <p class="testimonials-card-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        error repellat ab magnam omnis dolore, nemo quia corrupti officia inventore!</p>
+                </div>
+                <div class="testimonials-card testimonials-card-4">
+                    <div class="testimonials-card-img">
+                        <img src="./img/user-4.jpg" alt="">
+                    </div>
+                    <p class="testimonials-card-name my-1">Jamie-Lee Easton</p>
+                    <p class="testimonials-card-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                        explicabo doloremque beatae magni reprehenderit deserunt ad eius laudantium delectus est officia
+                        voluptatem earum natus molestiae optio quasi, esse sint quo nisi quod illum. At.</p>
+                </div>
+                <div class="testimonials-card testimonials-card-5">
+                    <div class="testimonials-card-img">
+                        <img src="./img/user-5.jpg" alt="">
+                    </div>
+                    <p class="testimonials-card-name my-1">Lorraine Salt</p>
+                    <p class="testimonials-card-message">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                        quas maiores repudiandae totam sed architecto temporibus pariatur incidunt qui eaque, facilis
+                        perferendis? Doloremque pariatur beatae quae natus cupiditate! Pariatur, deleniti voluptatem,
+                        doloribus ex repudiandae sequi quia accusamus ipsam officia facilis dolorem tempora consectetur!
+                        Accusantium quis provident dignissimos aperiam dicta necessitatibus molestias nemo aspernatur
+                        iure ad animi, velit placeat hic, aliquid rem adipisci laudantium. Saepe qui nemo a asperiores
+                        placeat beatae.</p>
+                </div>
+            </div>
+            <p class="testimonials-text-bottom text-center my-4"></p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-hidden background">
+        <div class="container">
+            <div class="contact">
+                <div class="contact-content">
+                    <p class="contact-content-text"></p>
+                    <h3 class="contact-content-title">Let's make something awsome together</h3>
+                    <p class="contact-content-message">If you are interesed, please contact me and I'll do my best for
+                        you!!!</p>
+                </div>
+
+                <div class="contact-site">
+                    <div class="contact-sites">
+                        <div class="contact-sites-fb">
+                            <a href="https://www.facebook.com/profile.php?id=1278904136" target="_blank" class="goTo"><i
+                                    class="icon fab fa-brands fa-facebook fa-2x"></i></a>
+                            <p class="contact-sites-text">Đorđe Nešković</p>
+                        </div>
+                        <div class="contact-sites-insta">
+                            <a href="https://www.instagram.com/djordje.neskovic/" target="_blank" class="goTo"><i
+                                    class="icon fab fa-brands fa-instagram fa-2x"></i></a>
+                            <p class="contact-sites-text">djneskovic</p>
+                        </div>
+                        <div class="contact-sites-linked">
+                            <a href="https://www.linkedin.com/in/%C4%91or%C4%91e-ne%C5%A1kovi%C4%87-3369a9109/"
+                                target="_blank" class="goTo"><i class="icon fab fa-brands fa-linkedin fa-2x"></i> </a>
+                            <p class="contact-sites-text">Đorđe Nešković</p>
+                        </div>
+                        <div class="contact-sites-gmail">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"
+                                class="goTo"><i class="icon fas fa-solid fa-envelope fa-2x"></i> </a>
+                            <p class="contact-sites-text">djneskovic@gmail.com</p>
+                        </div>
+                        <div class="contact-sites-git">
+                            <a href="https://github.com/djneskovic" target="_blank" class="goTo"><i
+                                    class="icon fab fa-brands fa-github fa-2x"></i></a>
+                            <p class="contact-sites-text">djneskovic</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="contact-content-text-bottom my-4"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="section section-hidden my-1">
+        <div class="container">
+            <div class="footer">
+                <div class="clock"></div>
+                <p class="footer-text text-center">Copyright <span class="copyright">&copy;</span> 2022 Đorđe Nešković
+                </p>
+            </div>
+        </div>
+
+        <!--Proba-->
+    </footer>
+
+
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/2af363a9d9.js" crossorigin="anonymous"></script>
+    <!--JS-->
+    <script src="./script.js"></script>
+    <script src="./typewriter.js"></script>
+</body>
+
+</html>

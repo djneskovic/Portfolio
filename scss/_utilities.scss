@@ -1,0 +1,170 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block !important;
+    position: fixed !important;
+}
+
+.sticky {
+    position: fixed;
+}
+
+.section {
+    transition: transform 1s, opacity 1s;
+}
+
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+}
+
+.background {
+    &::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .2;
+        background-image: url('/dist/img/vector-DEC-2020-51_generated.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        z-index: -1;
+    }
+}
+
+
+
+// Margin Y and X
+
+.my {
+    &-1 {
+        margin: 1rem 0;
+    }
+
+    &-2 {
+        margin: 2rem 0;
+    }
+
+    &-3 {
+        margin: 3rem 0;
+    }
+
+    &-4 {
+        margin: 4rem 0;
+    }
+
+    &-5 {
+        margin: 5rem 0;
+    }
+}
+
+.mx {
+    &-1 {
+        margin: 0 1rem;
+    }
+
+    &-2 {
+        margin: 0 2rem;
+    }
+
+    &-3 {
+        margin: 0 3rem;
+    }
+
+    &-4 {
+        margin: 0 4rem;
+    }
+
+    &-5 {
+        margin: 0 5rem;
+    }
+}
+
+// Padding Y and X
+
+.py {
+    &-1 {
+        padding: 1rem 0;
+    }
+
+    &-2 {
+        padding: 2rem 0;
+    }
+
+    &-3 {
+        padding: 3rem 0;
+    }
+
+    &-4 {
+        padding: 4rem 0;
+    }
+
+    &-5 {
+        padding: 5rem 0;
+    }
+}
+
+.px {
+    &-1 {
+        padding: 0 1rem;
+    }
+
+    &-2 {
+        padding: 0 2rem;
+    }
+
+    &-3 {
+        padding: 0 3rem;
+    }
+
+    &-4 {
+        padding: 0 4rem;
+    }
+
+    &-5 {
+        padding: 0 5rem;
+    }
+}
+
+// Text center
+
+.text-center {
+    text-align: center;
+}
+
+//Btn Shared
+%btn {
+    padding: .7rem 3rem;
+    border: none;
+    background: transparent;
+}

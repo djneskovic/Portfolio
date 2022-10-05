@@ -1,0 +1,180 @@
+@media(max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+
+    #navigation {
+        .navigation {
+            &-hamburger {
+                font-size: 1rem;
+            }
+
+            &-logo-text {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    #hero {
+        .hero {
+            &-title {
+                font-size: 4rem;
+            }
+
+            &-message {
+                font-size: 1.1rem;
+            }
+
+            &-pointer {
+                font-size: 4rem;
+            }
+
+            &-game {
+                &-question {
+                    font-size: 1.2rem;
+                }
+
+                &-title {
+                    font-size: 1.6rem;
+                }
+
+                &-content {
+                    font-size: 1.1rem;
+                }
+
+                #hero-game-options {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    #about-me {
+        .about-me {
+            .loader {
+                width: 50px;
+                height: 50px;
+            }
+
+            &-content {
+                .about-me-title {
+                    font-size: 3rem;
+                }
+
+                .about-me-message {
+                    font-size: 1.2rem;
+                }
+            }
+
+            &-img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+    #projects {
+        .project-content {
+            &-title {
+                font-size: 2.5rem;
+            }
+        }
+
+        .projects-works {
+            .project {
+                &-img {
+                    width: 250px;
+                    height: 250px;
+                }
+
+                .project-inner {
+                    &-text {
+                        font-size: .9rem;
+                    }
+
+                    .btn-view-project {
+                        padding: .5rem 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #video-projects {
+        .video-projects-content {
+            &-title {
+                font-size: 2.5rem;
+            }
+
+            &-message {
+                font-size: 1.1rem;
+            }
+
+            .masha {
+                font-size: 1.3rem;
+            }
+        }
+
+        .slider {
+            margin-top: 5rem;
+
+            iframe {
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+
+    #testimonials {
+        .testimonials-content {
+            &-title {
+                font-size: 2.5rem;
+            }
+
+            &-message {
+                font-size: 1.1rem;
+            }
+        }
+
+        .testimonials {
+            &-card {
+                &-message {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+
+    #contact {
+        .contact {
+            .contact-content {
+                &-title {
+                    font-size: 2.5rem;
+                }
+
+                &-message {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .contact-site {
+                margin-top: 3rem;
+
+                .contact-sites {
+                    font-size: 1.2rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+            }
+        }
+    }
+
+    #footer {
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
